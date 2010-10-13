@@ -10,3 +10,10 @@
     +--------------------------------------------------------------------+
 
   Not functional yet
+
+== TO-DO ==
+
+ * Work on facilitate the use of values inside ruby code
+ * Map the type of variables to the ruby code
+ * Return to mysql the value with the type returned by ruby code
+ * Execute ruby code from files
