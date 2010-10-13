@@ -1,0 +1,12 @@
+== libmysqlruby ==
+
+  This code is intended to execute code inside mysql, like:
+
+    mysql> SELECT mrb(2, 2, '$OUTPUT = ($ARGSQLV[0].to_i + $ARGVSQLv[1].to_i).to_s');
+    +--------------------------------------------------------------------+
+    | mrb(2, 2, '$OUTPUT = ($ARGSQLV[0].to_i + $ARGVSQLv[1].to_i).to_s') |
+    +--------------------------------------------------------------------+
+    |                                                                  4 |
+    +--------------------------------------------------------------------+
+
+  Not functional yet
